@@ -34,7 +34,4 @@ cacheSolve <- function(x, ...) {
     x$setinv(inv)
     inv
 }
-m <- matrix(c(1, 2, 3, 4), 2, 2)
-cacheSolve(makeCacheMatrix(m))
-m1<-makeCacheMatrix(m)
-cacheSolve(m1)
+
